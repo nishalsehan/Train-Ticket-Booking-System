@@ -1,0 +1,325 @@
+#mainContent{
+	padding: 40px 20px 40px;
+	position: relative; 
+    width: 100%;
+	height: auto;
+	background-image: url("../image/complaint.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-title h2{
+	color: #6a6a6a;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 24px; 
+	font-weight: 800;
+} 
+
+.sec-title p{
+	color: #9a9a9a;
+	font-size: 15px;
+	margin-bottom: 20px;
+} 
+
+#mainContent .container-fluid{
+	margin: 0px 20px;
+}
+
+#mainContent  .leftContent{
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px 30px 20px;
+}
+
+.rightContent h3{
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.addressRow, .phoneRow{
+	padding: 20px 0px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, .7);
+}
+
+.phoneRow{
+	margin-top: 30px;
+}
+
+
+.addressRow img, .phoneRow img{
+	width: 80px;
+}
+
+.addressRow h4, .phoneRow h4{
+	color: #6a6a6a;
+	font-weight: 700;
+}
+
+
+
+#complaintForm label{
+	color: #2c2c2c;
+	font-size: 13px;
+	font-weight: 100;
+	padding-top: 10px;
+	margin-left: -15px;
+}
+
+
+
+
+
+#complaint{
+	padding: 30px 20px 40px;
+	background: #fff;
+} 
+
+
+
+input[type="text"], input[type="email"], #complaintAbout, #inputFile{
+	height: 40px;
+	color: #2c2c2c;
+	background-color: transparent;
+    border: 1px solid rgba(232, 80, 44, 0.3);
+    border-radius: 25px;
+    color: #2c2c2c;
+    line-height: normal;
+    font-size: 12px;
+    -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	padding: 10px 20px;
+}
+
+#senderComplaint {
+	color: #2c2c2c;
+	background-color: transparent;
+     border: 1px solid rgba(232, 80, 44, 0.3);
+    border-radius: 25px;
+    color: #2c2c2c;
+    line-height: normal;
+    font-size: 12px;
+    -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	padding: 10px 20px;
+	resize: none;
+}
+
+#complaintForm label{
+	color: #2c2c2c;
+	padding: 0px 20px;
+	font-size: 13px;
+	font-weight: 550;
+}
+
+input[type="text"]:focus, input[type="email"]:focus , #complaintAbout:focus, #inputFile:focus, #senderComplaint:focus{
+	box-shadow: none;
+	border: 1px solid #f96332;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+    color: #2c2c2c;
+}
+
+#complaintBtn{
+	height: 40px;
+	background-color: #00aa8d;
+    color: #FFFFFF;
+	border: none;
+    border-radius: 5px;
+    padding: 11px 22px;
+    cursor: pointer;
+	border-width: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+	transition: all .15s ease-in-out;
+	user-select: none;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: inline-block;
+}
+
+#complaintBtn:hover, #complaintBtn:focus {
+	background-color: rgba(0, 170, 141, 0.8);
+    color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+	outline : none;
+}
+
+#helpText{
+	font-size: 12px;
+	color: red !important;
+}
+
+.has-id{
+	border: 1px solid green !important;
+}
+.hasnot-id{
+	border: 1px solid red !important;
+}
+
+#image_upload_preview{
+	height: 300px;	
+}
+
+#ticketConfirm{
+	color: #00aa8d; 
+	margin-top: 0px; 
+	font-size: 15px;
+	text-align: center;
+}
+
+hr{
+	border-top: 1px solid #f1f0f0;
+}
+
+.status{
+	border: 3px solid #00aa8d;
+    color: #00aa8d;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.basicData{
+	margin-bottom: 15px;
+}
+
+.basicData span{
+	font-weight: 100;
+	padding-left: 30px;
+}
+
+.basicData label{
+	color: #2c2c2c;
+    font-size: 13px;
+}
+
+.requesterData, .complaintData{
+	margin-bottom: 20px;
+}
+
+.requesterData h4, .complaintData h4{
+	margin-top: 0px;
+	color: #f96332;
+}
+
+.clearHr{
+	clear: both;
+}
+
+#successTicket{
+	background: #fff;
+	padding: 0px 40px 30px;
+	font-size: 13px;
+}
+
+#successTicket h3{
+	color: #f96332;
+}
+
+.btn-back{
+	height: 40px;
+	background-color: #f96332;
+    color: #FFFFFF;
+	border: none;
+    border-radius: 5px;
+    padding: 11px 22px;
+    cursor: pointer;
+	border-width: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+	transition: all .15s ease-in-out;
+	user-select: none;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
+
+.btn-back:focus, .btn-back:hover{
+	color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+	outline : none;
+}
+
+.imgFormGroup{
+	margin-bottom:0px;
+}
+
+
+.errorMsg {
+    color: #ef5a5a;
+    padding: 0px 20px;
+    font-size: 13px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	#mainContent .container-fluid {
+		margin: 10px !important;
+		padding: 10px 25px !important;
+	}
+	
+	#mainContent .leftContent{
+		padding: 25px 35px !important;
+	}
+	
+	#playstore {
+		width: 70% !important;
+		margin: 2px auto !important;
+	}
+	
+	.rightContent h3{
+		font-size: 22px;
+	}
+	
+	#complaintBtn{
+		width: 100% !important;
+	}
+	
+	.btn-back{
+		width: 100% !important;
+	}
+	
+	#ticketConfirm{
+		font-size: 13px !important;
+		padding: 0px 20px !important;
+	}
+	
+	#successTicket h3{
+		font-size: 20px !important;
+	}
+	
+	.requesterData h4, .complaintData h4{
+		font-size: 14px !important;
+	}
+	
+}
+
+
+
+
+

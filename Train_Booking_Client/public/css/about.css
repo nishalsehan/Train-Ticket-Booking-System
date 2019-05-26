@@ -1,0 +1,259 @@
+#content1{
+	padding: 40px 0px;
+	background: #fff;
+}
+
+.sec-title h2 {
+	color: #2c2c2c;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 24px; 
+}
+
+.sec-title p{
+	color: #9a9a9a;
+	margin-bottom: 35px;
+	text-align: center !important;
+	font-size: 15px;
+}
+
+#content1 h3{
+	color: #e85024;
+	font-weight: 550;
+	font-size: 20px;
+}
+
+#content1 p{
+	padding: 10px 20px;
+	text-align: justify;
+	color: #2c2c2c;
+    font-size: 13px;
+}
+
+#content4{
+	background-color: #e85024;
+} 
+
+#aboutImg{
+	opacity: 0.75;
+}
+
+#content1 img{
+	height: 90px;
+	width: 90px;
+}
+
+#parallax{
+	background: #000;
+}
+
+.parallax { 
+    /* background-image: url("../image/aboutParallax.jpg"); */
+    background-image: url("../image/slider2.html");
+	height: auto; 
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 100px 200px;
+	
+	/* opacity: 0.75; */
+}
+
+#parallax .message-body {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 40px;
+	background: rgba(255, 255, 255, .75);
+    padding: 25px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px #131516;
+}
+
+.message-body h3{
+	color: #e85024;
+	font-weight: 550;
+	text-align: center;
+	margin-top:0px;
+}
+
+.message-body p{
+	text-align: justify;
+}
+
+.message-body h4{
+	color: #131516;
+}
+
+blockquote{
+	margin: 0;
+	padding: 0 20px;
+}
+
+blockquote p{
+	font-size: 13px;
+}
+
+blockquote footer{
+	color: #e85024;
+}
+
+
+
+
+
+#about{
+	padding: 30px 40px 40px;
+	background: #fff;
+}
+
+#about h3{
+	color: #6a6a6a;
+	font-weight: 650;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+.valueHead{
+	margin-bottom: 40px !important;
+}
+
+#about p{
+	text-align: justify;
+	color: #2c2c2c2;
+    font-size: 13px;
+}
+
+#about h4{
+	color: #2c2c2c;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#about img{
+	height: 60px;
+	width: 60px;
+}
+
+.culture p, .vision p{
+	text-align: center !important;
+	font-size: 13px; 
+	color: #2c2c2c;
+}
+
+.vision{
+	margin-bottom: 30px;
+}
+
+#visionIcon, #cultureIcon{
+	height: 90px !important; 
+	width: 90px !important;
+	margin-bottom: 10px;
+}
+
+
+#aboutQuote{
+	padding: 40px 0px;
+	background: rgba(249, 99, 50, 0.8)
+}
+
+#aboutQuote p{
+	color: #fff;
+}
+
+.quoteIcon{
+	color: #ddd;
+}
+
+.quoteImg{
+	width: 100px;
+}
+
+.fa-quote-left{
+	padding-right: 20px;
+}
+
+
+.tab-content{
+	min-height: 300px;
+	padding: 50px;
+	/* border: 1px solid #ddd; */
+	/* border-top: none; */
+}
+
+.nav-pills{
+	/* border: 1px solid #ddd; */
+	background: ghostwhite;
+}
+
+.nav-justified>li>a{
+	padding: 15px 0px;
+	border-radius: 0;
+	color: #6a6a6a;
+}
+
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #f96332;
+    background-color: transparent;
+    border-bottom: 5px solid;
+	font-weight:600;
+	font-size:15px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #f96332;
+	border-bottom: 5px solid;
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	#about {
+		padding: 40px 10px !important;
+	}
+	
+	.sec-title p {
+		font-size: 13px !important;
+		margin-bottom: 10px !important;
+	}
+	
+	#content1{
+		padding-top: 0px !important;
+	}
+	
+	.tab-content{
+		padding: 10px;
+	}
+	
+	#playstore {
+		width: 70% !important;
+		margin: 2px auto !important;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

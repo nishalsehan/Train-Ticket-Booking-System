@@ -1,0 +1,183 @@
+#mainContent{
+	padding: 30px 20px 40px;
+	background: #fff;
+	min-height: 70vh;
+} 
+
+.sec-title h2{
+	color: #2c2c2c;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 28px; 
+} 
+
+.sec-title p{
+	color: #9a9a9a;
+	margin-bottom: 25px;
+	text-align: center !important;
+	font-size: 15px;
+} 
+
+#requestRateForm label{
+	color: #2c2c2c;
+	font-size: 13px;
+	font-weight: 100;
+	padding-top: 10px;
+	margin-left: -15px;
+}
+
+#senderName, #senderPhone, #senderEmail, #storeName, #city, #businessAddress, #otherText{
+	height: 40px;
+	color: #2c2c2c;
+	background-color: transparent;
+    border: 1px solid rgba(232, 80, 44, 0.3);
+    border-radius: 25px;
+    color: #2c2c2c;
+    line-height: normal;
+    font-size: 12px;
+    -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	padding: 10px 20px;
+}
+
+#city{
+	color: #9a9a9a;
+}
+
+#senderName:focus, #senderPhone:focus, #senderEmail:focus, #senderQuestion:focus, #storeName:focus, #city:focus, #businessAddress:focus, #otherText:focus {
+	box-shadow: none;
+	border: 1px solid #f96332;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+    color: #2c2c2c;
+}
+
+#requestBtn{
+	height: 40px;
+	width: 100%;
+	background-color: #00aa8d;
+    color: #FFFFFF;
+	border: none;
+    border-radius: 5px;
+    padding: 11px 22px;
+    cursor: pointer;
+	border-width: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+	transition: all .15s ease-in-out;
+	user-select: none;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: inline-block;
+}
+
+#clearBtn{
+	height: 40px;
+	width: 100%;
+	background-color: rgba(249, 102, 50, .8);
+    color: #FFFFFF;
+	border: none;
+    border-radius: 5px;
+    padding: 11px 22px;
+    cursor: pointer;
+	border-width: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+	transition: all .15s ease-in-out;
+	user-select: none;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: inline-block;
+}
+
+#signupBtn{
+	height: 40px;
+	width: auto;
+	background-color: #f96332;
+    color: #FFFFFF;
+	border: none;
+    border-radius: 5px;
+    padding: 13px 22px;
+    cursor: pointer;
+	border-width: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+	transition: all .15s ease-in-out;
+	user-select: none;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: inline-block;
+}
+
+#clearBtn:hover, #clearBtn:focus {
+	background-color: rgba(249, 102, 50, .75);
+    color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+	outline : none;
+}
+
+#requestBtn:hover, #requestBtn:focus {
+	background-color: rgba(0, 170, 141, 0.8);
+    color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+	outline : none;
+}
+
+#signupBtn:hover, #signupBtn:focus {
+	background-color: rgba(249, 99, 50, 0.8);
+    color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+	outline : none;
+}
+
+input[type=radio] {
+    margin: 0px 5px 0 0px;
+} 
+
+input[type=radio]:checked{
+	background: red;
+}
+
+#helpText{
+	font-size: 12px;
+	color: red !important;
+}
+
+.errorMsg {
+    color: #ef5a5a;
+    padding: 0px 20px;
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	#playstore {
+		width: 70% !important;
+		margin: 2px auto !important;
+	}
+	
+	#mainContent {
+		padding: 25px 40px 40px !important;
+	}
+	
+	#requestBtn{
+		width: 100% !important;
+		margin-top: 10px;
+	}
+
+}
+
+

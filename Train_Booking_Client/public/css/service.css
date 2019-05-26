@@ -1,0 +1,151 @@
+body{
+	padding-top: 0px;
+}
+ 
+#ecommerce{
+	padding: 85px 20px 0px !important;
+	background: #fff;
+} 
+
+.sec-title h2{
+	color: #2c2c2c;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 24px; 
+} 
+
+.sec-title h3{
+	color: #6a6a6a;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 600;
+} 
+
+.sec-title p{
+	color: #6a6a6a;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.ecommercePara{
+	text-align: justify;
+	padding: 10px 0px 0px;
+	font-size: 13px;
+} 
+
+.vadServices {
+	color: #818181;
+	margin-bottom: 20px;
+}
+
+.vadServices div{
+	padding: 20px 0px;;
+}
+
+.vadServices span:hover {
+	color: #e85024;
+}
+
+.vadServices h4{
+	color: #2c2c2c;
+	font-size: 14px;
+}
+
+.vadServices img {
+	height: 80px;
+	width: 80px;
+}
+
+#telco{
+	padding: 80px 20px 50px;
+    background: #fffafa;
+} 
+
+
+
+.telcoPara{
+	text-align: justify;
+	padding: 10px 0px 0px;
+	font-size: 13px;
+}
+
+#telcoList{
+	font-size: 13px;
+}
+
+#courier{
+	padding: 80px 20px 0px;
+	background: #fff;
+} 
+
+
+.courierPara{
+	text-align: justify;
+	padding: 10px 0px 0px;
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+	
+ #ecommerce{
+	padding: 30px 20px;
+} 
+	
+.sec-title h2{
+	font-size: 24px;
+} 
+
+.sec-title h3{
+	font-size: 20px;
+} 
+
+.sec-title p{
+	font-size: 15px;
+} 
+
+.ecommercePara, .telcoPara, .courierPara{
+	font-size:13px;
+} 
+
+#telco{
+	padding: 0px 20px;
+	background: #fff;
+} 
+
+
+#telco ul li{
+	font-size: 12px;
+	margin-left: -20px;
+	text-align: justify;
+}
+
+body{
+	padding-top: 0px !important;
+}
+
+#playstore {
+		width: 70% !important;
+		margin: 2px auto !important;
+	}
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

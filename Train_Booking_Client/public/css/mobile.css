@@ -1,0 +1,237 @@
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+	
+	body{
+		padding-top: 50px !important;
+	}
+	
+	#simplexlogo{
+		height: 38px !important;
+	}
+
+	#trackId, #trackBtn{
+		width: 100% !important;
+		height: 40px;
+		margin-top: 10px;
+	}
+	
+	#homeBackground {
+		height: 350px;
+	}
+	
+	.homeContainer .content {
+		width: 100% !important; 
+		padding: 45% 10% !important; 
+		height: 100%;
+	}
+	
+	#welcomeHead {
+		font-size: 30px !important;
+		margin-bottom: 10px !important;
+		text-align: center !important;
+	}
+	
+	
+	.titlebarIcon{
+		width: 30px;
+		height: 30px;
+	}
+	
+	.navbar-nav .open .dropdown-menu>li>a {
+		line-height: 34px;
+		text-align: center;
+	}
+	
+	#navigation .navbar-nav>li>a {
+		text-align: center;
+	}
+	
+	.btn-transparent{
+		padding: 10px 0px !important;
+		background: #f7f7f7;
+	}
+	
+	.btn-center{
+		background: #e85024;
+	}
+	
+	#phoneTrackResultTable>tbody>tr>td{
+		text-align: center;
+	}
+	
+	#processImg{
+		/* height: 330px !important; */
+	}
+	
+	
+	.parallax { 
+		padding: 30px 40px !important;
+	}
+	
+	#about{
+		padding: 40px 0px !important;
+	}
+	
+	.loginForm, .signupForm{
+		padding: 20px 0px 0px !important;
+	}
+	
+	#service {
+		padding: 20px 10px  !important;
+	}
+	
+	#footer{
+		padding: 10px 10px 20px !important;
+	}
+	
+.step5 p{
+	padding: 20px 0px;
+}
+
+.serviceHead{
+	text-align: justify !important;
+	font-weight: 100;
+	color: #818181;
+	font-size: 13px;
+}
+
+#service p {
+	font-size: 13px;
+	padding: 20px 0px !important;
+}
+
+#service h1, #contactForms h1 {
+	font-size: 20px !important;
+}
+
+.step5 p{
+	font-size: 13px;
+}
+
+
+.sec-title h2 {
+	font-size: 24px !important;
+}
+
+.sec-title p {
+	font-size: 14px !important;
+}
+
+#complaintBtn, #contactBtn, #requestBtn, #questionBtn, #trackComplaintBtn{
+	width: auto !important;
+}
+#image_upload_preview{
+	height: auto;	
+	width: 100%;
+}
+
+.culture p, .vision p, #about p , #content1 p {
+    font-size: 13px; 
+}
+
+#content1 h3{
+	font-size: 20px;
+}
+
+.contactForm h4 {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.contactForm{
+	padding: 0px;
+	margin-top: 10px;
+}
+
+#simplexMap {
+	height: 300px;
+}
+
+#shipment{
+	padding: 40px 15px !important;
+} 
+
+#regForm{
+	padding: 5px 30px !important;
+}
+
+#simplexMap{
+	height: 600px !important;
+}
+
+#trackComplaint{
+	padding: 30px 10px !important;
+}
+
+#trackComplaint .sec-title h2, #trackOrder .sec-title h2{
+	margin-bottom: 25px !important;
+}
+
+#trackComplaint .table>tbody>tr>td, #trackComplaint .table>tbody>tr>th, #trackComplaint .table>tfoot>tr>td, #trackComplaint .table>tfoot>tr>th, #trackComplaint .table>thead>tr>td, #trackComplaint .table>thead>tr>th{
+	word-break: break-all !important;
+}
+
+#acceptBtn, #rejectBtn{
+	font-size: 10px !important;
+}
+
+#actionTable, #complaintStatusTable, #trackComplaintResultTable{
+	font-size: 10px !important;
+}
+
+#changeDate, .changeDate{
+	text-align: left !important;
+}
+
+#phoneTrackResultTable{
+	margin-top: 30px !important;
+}
+
+#timeLineContent {
+    padding: 30px 0px !important;
+}
+
+.modalContent {
+    padding: 10px 60px !important;
+}
+
+.message-item .message-inner{
+	font-size: 12px !important;
+}
+
+#phoneContent{
+	margin-top: 25px;
+}
+
+.homeContainer {
+    min-height: 400px !important;
+	background-image: url("../image/b312.html") !important;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
